@@ -47,7 +47,7 @@ p {
     font-size: 16px;
     line-height: 2;
     text-align: justify;
-    color: var(--secondary-color);
+    color: var(--principal-color);
 }
 
 .hero-section img{
@@ -108,4 +108,29 @@ p {
     text-decoration: none;
     transition: all 100ms ease-in-out;
 
+}
+
+footer p{
+    color: var(--secondary-color);
+}
+
+@media(max-width: 900px){
+    h1{
+        font-size: 30px ;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .home img{
+       max-width: 300px; 
+    }
+
+    p{
+      margin: 20px 30px;  
+    }
+
+.project{
+    margin: 60px 30px;
+}
 }
