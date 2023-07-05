@@ -3,12 +3,14 @@
         serif;
     --default-font-family: 'Poppins',
         sans-serif;
+        --principal-color: White;
+        --secondary-color: black;
 }
 
 body{
 font-family: var(--default-font-family);
 background: #01352c;
-color: white;
+color: var(--principal-color);
 }
 
 .content{
@@ -25,7 +27,6 @@ color: white;
 
 .hero-section, .project-section {
     padding: 20px 40px;
-   
 }
 
 
@@ -46,7 +47,7 @@ p {
     font-size: 16px;
     line-height: 2;
     text-align: justify;
-    color: black;
+    color: var(--secondary-color);
 }
 
 .hero-section img{
@@ -57,23 +58,22 @@ p {
 
 
 .navigation-bar a{
-    color: black;
+    color: var(--secondary-color);
     font-size: 18px;
 }
 
 .navigation-bar li.active a{
-   color: white;
-   text-decoration:underline;
+ text-decoration:underline;
 }
 
 .navigation-bar a:hover {
-    color: white;
+    color: var(--principal-color);
 }
 
 
 .social-links a {
     margin: 0 20px;
-    color: white;
+    color: var(--principal-color);
     padding: 10px 14px;
     border-radius: 50%;
     font-size: 28px;
@@ -81,8 +81,8 @@ p {
 }
 
 .social-links a:hover {
-    color: black;
-    background: white;
+    color: var(--secondary-color);
+    background: var(--principal-color);
    
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 .contacts-section a{
-    color:black;
+    color:var(--secondary-color);
     text-decoration: none;
     
 }
