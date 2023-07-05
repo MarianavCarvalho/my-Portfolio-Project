@@ -22,12 +22,12 @@ color: white;
     margin: 50px auto;
 }
 
-.hero-section, .project-section{
+
+.hero-section, .project-section {
     padding: 20px 40px;
+   
 }
-.about-section{
-    padding: 280px 12px;
- }
+
 
 h1{
     font-family: var(--heading-font-family);
@@ -46,6 +46,7 @@ p {
     font-size: 16px;
     line-height: 2;
     text-align: justify;
+    color: black;
 }
 
 .hero-section img{
@@ -83,6 +84,13 @@ p {
     color: black;
     background: white;
    
+}
+
+.about-section img{
+    max-width: 300px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
 }
 
 .project{
