@@ -3,13 +3,13 @@
         serif;
     --default-font-family: 'Poppins',
         sans-serif;
-        --principal-color: White;
-        --secondary-color: black;
+        --principal-color: black;
+        --secondary-color: white;
 }
 
 body{
 font-family: var(--default-font-family);
-background: #01352c;
+background: #ffebeb;
 color: var(--principal-color);
 }
 
@@ -36,7 +36,7 @@ h1{
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 h3{
@@ -63,7 +63,7 @@ p {
 }
 
 .navigation-bar li.active a{
- text-decoration:underline;
+ text-decoration: underline;
 }
 
 .navigation-bar a:hover {
@@ -87,7 +87,7 @@ p {
 }
 
 .about-section img{
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin: 50px auto;
     text-align: center;
@@ -111,7 +111,7 @@ p {
 }
 
 footer p{
-    color: var(--secondary-color);
+    color: #ff8585;
 }
 
 @media(max-width: 900px){
