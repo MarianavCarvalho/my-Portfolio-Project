@@ -13,10 +13,6 @@ background: #ffebeb;
 color: var(--principal-color);
 }
 
-.content{
-    padding: 10px;
-
-}
 
 .home img{
     max-width: 100%;
@@ -25,7 +21,7 @@ color: var(--principal-color);
 }
 
 
-.hero-section, .project-section {
+.hero-section {
     padding: 20px 40px;
 }
 
@@ -53,7 +49,7 @@ p {
 .hero-section img{
     max-width: 300px;
     display: block;
-     margin: 50px auto;
+    margin: 50px auto;
 }
 
 
@@ -86,6 +82,13 @@ p {
    
 }
 
+.info .social-links a{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    
+}
+
 .about-section img{
     max-width: 400px;
     display: block;
@@ -93,8 +96,24 @@ p {
     text-align: center;
 }
 
-.project{
-    margin: 120px 0;
+.projects-section {
+    padding: 40px 20px;
+}
+
+ul{
+    padding: 20px 0 0;
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+}
+
+.row{
+    align-items: center;
+    margin-bottom: 40px;
+}
+.info {
+    padding: 40px 20px;
+
 }
 
 .contacts-section a{
