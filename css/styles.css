@@ -58,12 +58,9 @@ p {
     font-size: 18px;
 }
 
-.navigation-bar li.active a{
- text-decoration: underline;
-}
 
 .navigation-bar a:hover {
-    color: var(--principal-color);
+    color: #c7b198;
 }
 
 
@@ -109,10 +106,6 @@ p {
 color: #c7b198;
 }
 
-.projects-section {
-    padding: 40px 20px;
-}
-
 .card-body ul{
     padding: 20px 0 0;
     list-style: none;
@@ -149,20 +142,25 @@ footer p{
 @media(max-width: 900px){
     h1{
         font-size: 30px ;
+        margin: 0 0 20px;
     }
     h2{
         font-size: 20px;
     }
 
-    .home img{
+    .home img, .about-section img{
        max-width: 300px; 
     }
 
-    p{
-      margin: 20px 30px;  
+    .hero-section{
+        padding: 10px;
     }
 
-.project{
-    margin: 60px 30px;
+    p{
+      margin: 10px 15px;
+    }
+.row{
+    padding: 0 15px;
 }
+
 }
