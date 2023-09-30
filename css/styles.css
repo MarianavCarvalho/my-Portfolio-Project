@@ -9,7 +9,7 @@
 
 body{
 font-family: var(--default-font-family);
-background: #ffebeb;
+background:#e9e2d0;
 color: var(--principal-color);
 }
 
@@ -120,7 +120,7 @@ ul{
 }
 
 .contacts-section a{
-    color: #ff8585;
+    color:#c7b198;
     text-decoration: none;
     
 }
@@ -133,7 +133,7 @@ ul{
 }
 
 footer p{
-    color: #ff8585;
+    color: #c7b198;
 }
 
 @media(max-width: 900px){
