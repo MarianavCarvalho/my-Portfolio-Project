@@ -5,6 +5,7 @@
         sans-serif;
         --principal-color: black;
         --secondary-color: white;
+        --bege-color: #c7b198;
 }
 
 body{
@@ -14,13 +15,28 @@ color: var(--principal-color);
 }
 
 
-.home img{
-    max-width: 100%;
-    display: block;
-    margin: 50px auto;
+.intro h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2;
+    }
+
+.intro .btn-home{
+    background: var(--bege-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 15px 30px;
+    transition: all 100ms ease-in-out;
+
+    }
+
+.intro a:hover {
+    background: var(--secondary-color);
+    color: var(--bege-color);
 }
-
-
+       
 .hero-section {
     padding: 20px 40px;
 }
@@ -60,7 +76,7 @@ p {
 
 
 .navigation-bar a:hover {
-    color: #c7b198;
+    color: var(--bege-color);
 }
 
 
@@ -99,11 +115,11 @@ p {
 .about-section ul{
     line-height: 3;
     list-style: none;
-    color: #c7b198;
+    color: var(--bege-color);
 }
 
 .about-me p{
-color: #c7b198;
+color: var(--bege-color);
 }
 
 .card-body ul{
@@ -123,7 +139,7 @@ color: #c7b198;
 }
 
 .contacts-section a{
-    color:#c7b198;
+    color:var(--bege-color);
     text-decoration: none;
     
 }
@@ -136,7 +152,7 @@ color: #c7b198;
 }
 
 footer p{
-    color: #c7b198;
+    color: var(--bege-color);
 }
 
 @media(max-width: 900px){
