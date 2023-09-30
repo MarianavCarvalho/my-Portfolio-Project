@@ -120,13 +120,13 @@ ul{
 }
 
 .contacts-section a{
-    color:var(--secondary-color);
+    color: #ff8585;
     text-decoration: none;
     
 }
 
 .contacts-section a:hover {
-    color: green;
+    color: var(--principal-color);
     text-decoration: none;
     transition: all 100ms ease-in-out;
 
