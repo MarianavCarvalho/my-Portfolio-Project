@@ -9,16 +9,20 @@
 }
 
 body{
-font-family: var(--default-font-family);
-background:#e9e2d0;
-color: var(--principal-color);
+   font-family: var(--default-font-family);
+   background:#e9e2d0;
+   color: var(--principal-color);
 }
 
+.intro{
+   background: rgba(255, 255, 255, 0.5);
+   text-align: center;
+   padding: 40px 20px;
+   margin: 20px auto;
+}
 
 .intro h1{
-    font-size: 50px;
-    text-align: center;
-    line-height: 1.2;
+    font-size: 55px;
     }
 
 .intro .btn-home{
@@ -33,7 +37,7 @@ color: var(--principal-color);
     }
 
 .intro a:hover {
-    background: var(--secondary-color);
+    background: var(--secondary-color) ;
     color: var(--bege-color);
 }
        
@@ -98,12 +102,12 @@ p {
 .col{
     margin: 60px 0;
 }
+
 .col .social-links a{
     padding: 0;
     margin: 0;
     font-size: 24px;
-    
-}
+    }
 
 .about-section img{
     max-width: 400px;
@@ -129,13 +133,9 @@ color: var(--bege-color);
     line-height: 2;
 }
 
-.row{
+.contacts-grid {
     align-items: center;
-    margin-bottom: 40px;
-}
-.info {
-    padding: 40px 20px;
-
+   
 }
 
 .contacts-section a{
@@ -175,8 +175,7 @@ footer p{
     p{
       margin: 10px 15px;
     }
-.row{
-    padding: 0 15px;
-}
-
+    .row{
+       padding: 0 15px;
+    }
 }
